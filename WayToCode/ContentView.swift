@@ -9,13 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+            NavigationStack{
+                Text("Welcome!")
+                    .font(.largeTitle)
+                Text("Select a language to learn!")
+                    .font(.largeTitle)
+                Spacer()
+                
+                NavigationLink(destination: python()){
+                    Text("Python")
+                        .font(.title)
+                }
+                Spacer()
+                
+                NavigationLink(destination: html()){
+                    Text("html")
+                        .font(.title)
+                }
+                Spacer()
+                NavigationLink(destination: cplusplus()){
+                    Text("C++")
+                        .font(.title)
+                }
+                Spacer()
+            }
         }
-        .padding()
+    
     }
 }
 

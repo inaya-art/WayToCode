@@ -14,6 +14,14 @@
 		2BD8D8B52C2C58E0006F2046 /* WayToCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8B42C2C58E0006F2046 /* WayToCodeTests.swift */; };
 		2BD8D8BF2C2C58E0006F2046 /* WayToCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8BE2C2C58E0006F2046 /* WayToCodeUITests.swift */; };
 		2BD8D8C12C2C58E0006F2046 /* WayToCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8C02C2C58E0006F2046 /* WayToCodeUITestsLaunchTests.swift */; };
+		2BD8D8CE2C2C5A24006F2046 /* python.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8CD2C2C5A24006F2046 /* python.swift */; };
+		2BD8D8D02C2C5B6F006F2046 /* html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8CF2C2C5B6F006F2046 /* html.swift */; };
+		2BD8D8D42C2C5BBA006F2046 /* cplusplus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8D32C2C5BBA006F2046 /* cplusplus.swift */; };
+		2BD8D8D62C2C6041006F2046 /* BasicsOfPython.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8D52C2C6041006F2046 /* BasicsOfPython.swift */; };
+		2BD8D8D82C2C655B006F2046 /* conditionalsAndLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8D72C2C655B006F2046 /* conditionalsAndLoops.swift */; };
+		2BD8D8DA2C2C65A0006F2046 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8D92C2C65A0006F2046 /* functions.swift */; };
+		2BD8D8DC2C2C65BB006F2046 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8DB2C2C65BB006F2046 /* array.swift */; };
+		2BD8D8DE2C2C6609006F2046 /* pythonsetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8DD2C2C6609006F2046 /* pythonsetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		2BD8D8BA2C2C58E0006F2046 /* WayToCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayToCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD8D8BE2C2C58E0006F2046 /* WayToCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayToCodeUITests.swift; sourceTree = "<group>"; };
 		2BD8D8C02C2C58E0006F2046 /* WayToCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayToCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BD8D8CD2C2C5A24006F2046 /* python.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python.swift; sourceTree = "<group>"; };
+		2BD8D8CF2C2C5B6F006F2046 /* html.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = html.swift; sourceTree = "<group>"; };
+		2BD8D8D32C2C5BBA006F2046 /* cplusplus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cplusplus.swift; sourceTree = "<group>"; };
+		2BD8D8D52C2C6041006F2046 /* BasicsOfPython.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsOfPython.swift; sourceTree = "<group>"; };
+		2BD8D8D72C2C655B006F2046 /* conditionalsAndLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conditionalsAndLoops.swift; sourceTree = "<group>"; };
+		2BD8D8D92C2C65A0006F2046 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		2BD8D8DB2C2C65BB006F2046 /* array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		2BD8D8DD2C2C6609006F2046 /* pythonsetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pythonsetup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,8 @@
 		2BD8D8972C2C58DE006F2046 = {
 			isa = PBXGroup;
 			children = (
+				2BD8D8D32C2C5BBA006F2046 /* cplusplus.swift */,
+				2BD8D8CF2C2C5B6F006F2046 /* html.swift */,
 				2BD8D8A22C2C58DE006F2046 /* WayToCode */,
 				2BD8D8B32C2C58E0006F2046 /* WayToCodeTests */,
 				2BD8D8BD2C2C58E0006F2046 /* WayToCodeUITests */,
@@ -96,6 +114,12 @@
 			children = (
 				2BD8D8A32C2C58DE006F2046 /* WayToCodeApp.swift */,
 				2BD8D8A52C2C58DE006F2046 /* ContentView.swift */,
+				2BD8D8CD2C2C5A24006F2046 /* python.swift */,
+				2BD8D8DD2C2C6609006F2046 /* pythonsetup.swift */,
+				2BD8D8DB2C2C65BB006F2046 /* array.swift */,
+				2BD8D8D92C2C65A0006F2046 /* functions.swift */,
+				2BD8D8D72C2C655B006F2046 /* conditionalsAndLoops.swift */,
+				2BD8D8D52C2C6041006F2046 /* BasicsOfPython.swift */,
 				2BD8D8A72C2C58DF006F2046 /* Assets.xcassets */,
 				2BD8D8A92C2C58DF006F2046 /* Preview Content */,
 			);
@@ -258,7 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD8D8A62C2C58DE006F2046 /* ContentView.swift in Sources */,
+				2BD8D8CE2C2C5A24006F2046 /* python.swift in Sources */,
+				2BD8D8D02C2C5B6F006F2046 /* html.swift in Sources */,
+				2BD8D8DA2C2C65A0006F2046 /* functions.swift in Sources */,
 				2BD8D8A42C2C58DE006F2046 /* WayToCodeApp.swift in Sources */,
+				2BD8D8D82C2C655B006F2046 /* conditionalsAndLoops.swift in Sources */,
+				2BD8D8D42C2C5BBA006F2046 /* cplusplus.swift in Sources */,
+				2BD8D8DC2C2C65BB006F2046 /* array.swift in Sources */,
+				2BD8D8D62C2C6041006F2046 /* BasicsOfPython.swift in Sources */,
+				2BD8D8DE2C2C6609006F2046 /* pythonsetup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
