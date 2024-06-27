@@ -15,11 +15,37 @@ struct loops: View {
                 .font(.title)
             Text("A for loop is used for when you want to execute a block of code a certian number of times.")
             Text("The standard format of a for loop is shown below.")
-            //insert the image
+            Image("forformat")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity, maxHeight: 200)
             Text("A for loop can be used to iterate through a string, shown below.")
-            //insert image
-            Text("A for loop can be used to print a string a certain amount of times. Using the for _ in (start, end, amt you increase by) format. ")
+            Image("forloopstring")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity, maxHeight: 200)
+            Text("A for loop can be used to print a string a certain amount of times. Using the for _ in (start, end, amt you increase by) format. An ezample is shown below.")
+            Image("inrangefor")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity, maxHeight: 200)
+            Text("A for loop can also be used to iterate throughout an array. An example is shown below. ")
+            Image("arrayforloop")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity, maxHeight: 200)
+            Text("There are also nested for loops where there is a for loop within a for loop. Example is shown below.")
+            
+            Text("While Loops")
+                .fontWeight(.bold)
+                .font(.title)
+            Text("While loops execute a block of code while a condition is true. Example is shown below.")
+            Image("whileloop")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity, maxHeight: 200)
         }
+        .padding()
     }
 }
 
