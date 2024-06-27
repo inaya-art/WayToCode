@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9E6B862C2DB06800558CAA /* loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E6B852C2DB06800558CAA /* loops.swift */; };
+		2B9E6B882C2DB0D000558CAA /* booleans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E6B872C2DB0D000558CAA /* booleans.swift */; };
+		2BBC50F62C2DAFFA00962B07 /* conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC50F52C2DAFFA00962B07 /* conditionals.swift */; };
 		2BD8D8A42C2C58DE006F2046 /* WayToCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8A32C2C58DE006F2046 /* WayToCodeApp.swift */; };
 		2BD8D8A62C2C58DE006F2046 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D8A52C2C58DE006F2046 /* ContentView.swift */; };
 		2BD8D8A82C2C58DF006F2046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD8D8A72C2C58DF006F2046 /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9E6B852C2DB06800558CAA /* loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loops.swift; sourceTree = "<group>"; };
+		2B9E6B872C2DB0D000558CAA /* booleans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booleans.swift; sourceTree = "<group>"; };
+		2BBC50F52C2DAFFA00962B07 /* conditionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conditionals.swift; sourceTree = "<group>"; };
 		2BD8D8A02C2C58DE006F2046 /* WayToCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WayToCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD8D8A32C2C58DE006F2046 /* WayToCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayToCodeApp.swift; sourceTree = "<group>"; };
 		2BD8D8A52C2C58DE006F2046 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +143,9 @@
 				C9AC9F112C2CFD5F00D52E4F /* declaringFunctions.swift */,
 				C9AC9F0F2C2CFACD00D52E4F /* functionsTerms.swift */,
 				2BD8D8D72C2C655B006F2046 /* conditionalsAndLoops.swift */,
+				2B9E6B872C2DB0D000558CAA /* booleans.swift */,
+				2B9E6B852C2DB06800558CAA /* loops.swift */,
+				2BBC50F52C2DAFFA00962B07 /* conditionals.swift */,
 				2BD8D8D52C2C6041006F2046 /* BasicsOfPython.swift */,
 				2BD8D8A72C2C58DF006F2046 /* Assets.xcassets */,
 				2BD8D8A92C2C58DF006F2046 /* Preview Content */,
@@ -306,9 +315,12 @@
 				2BD8D8D02C2C5B6F006F2046 /* html.swift in Sources */,
 				2BD8D8DA2C2C65A0006F2046 /* functions.swift in Sources */,
 				2BD8D8A42C2C58DE006F2046 /* WayToCodeApp.swift in Sources */,
+				2B9E6B882C2DB0D000558CAA /* booleans.swift in Sources */,
+				2BBC50F62C2DAFFA00962B07 /* conditionals.swift in Sources */,
 				2BD8D8D82C2C655B006F2046 /* conditionalsAndLoops.swift in Sources */,
 				2BD8D8D42C2C5BBA006F2046 /* cplusplus.swift in Sources */,
 				C9AC9F162C2D070B00D52E4F /* ReturnAndPass.swift in Sources */,
+				2B9E6B862C2DB06800558CAA /* loops.swift in Sources */,
 				C9AC9F182C2D078400D52E4F /* functionsPractice.swift in Sources */,
 				C9AC9F142C2D016200D52E4F /* ArgumentsParameters.swift in Sources */,
 				2BD8D8DC2C2C65BB006F2046 /* array.swift in Sources */,
