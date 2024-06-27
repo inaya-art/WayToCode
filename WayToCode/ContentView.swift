@@ -11,40 +11,57 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                Color(.systemBlue)
+                Color(hue: 0.55, saturation: 0.395, brightness: 0.935)
                     .ignoresSafeArea()
+                    
                 VStack{
                     
-                    Text("Welcome!")
+                    Text("Welcome to WayToCode!")
                         .font(.largeTitle)
-                    
+                        .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                        .fontWeight(.bold)
                     Text("Select a language to learn!")
                         .font(.largeTitle)
-                        .foregroundColor(Color.black)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                        .multilineTextAlignment(.center)
+                        
+                        
+                        
+                        
+                        
                     Spacer()
                     
                     NavigationLink(destination: python()){
-                        Text("Python")
-                            .font(.title)
-                            .foregroundColor(Color.black)
+                        HStack{
+                            Text("Python")
+                                .font(.title)
+                                .foregroundColor(Color.black)
+                                .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                            Image("pythonsymbol")
+                                .resizable()
+                        }
                     }
                     Spacer()
                     
                     NavigationLink(destination: html()){
                         Text("html")
                             .font(.title)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                        
                     }
                     Spacer()
                     NavigationLink(destination: cplusplus()){
                         Text("C++")
                             .font(.title)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     Spacer()
                 }
+                .padding()
             }
         }
+        
     }
 }
 
