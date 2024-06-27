@@ -21,11 +21,7 @@ struct python: View {
                 Text("Basics Of Python")
                     .font(.title)
             }
-            Spacer()
-            NavigationLink(destination: conditionalsAndLoops()){
-                Text("Conditionals & Loops")
-                    .font(.title)
-            }
+           
             Spacer()
             NavigationLink(destination: array()){
                 Text("Arrays")
