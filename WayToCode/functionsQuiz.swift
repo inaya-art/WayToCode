@@ -9,8 +9,12 @@ import SwiftUI
 
 struct functionsQuiz: View {
     var body: some View {
-        VStack{
-            Text("Coming Soon!")
+        ZStack{
+            Color(hue: 0.55, saturation: 0.395, brightness: 0.935)
+                .ignoresSafeArea()
+            VStack{
+                Text("Coming Soon!")
+            }
         }
     }
 }

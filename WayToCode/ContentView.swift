@@ -40,6 +40,8 @@ struct ContentView: View {
                                 .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                             Image("pythonsymbol")
                                 .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(maxWidth: .infinity, maxHeight: 200)
                         }
                     }
                     Spacer()
@@ -48,6 +50,10 @@ struct ContentView: View {
                         Text("html")
                             .font(.title)
                             .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                        Image("html3")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(maxWidth: .infinity, maxHeight: 200)
                         
                     }
                     Spacer()
@@ -55,6 +61,10 @@ struct ContentView: View {
                         Text("C++")
                             .font(.title)
                             .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
+                        Image("c")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(maxWidth: .infinity, maxHeight: 200)
                     }
                     Spacer()
                 }
