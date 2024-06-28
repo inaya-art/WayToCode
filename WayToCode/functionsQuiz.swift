@@ -14,6 +14,7 @@ struct functionsQuiz: View {
                 .ignoresSafeArea()
             VStack{
                 Text("Coming Soon!")
+                    .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
             }
         }
     }

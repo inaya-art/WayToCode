@@ -32,6 +32,10 @@
 		2BFB6D762C2EE358001BC0B7 /* addIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D752C2EE357001BC0B7 /* addIndex.swift */; };
 		2BFB6D782C2EE364001BC0B7 /* addRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D772C2EE364001BC0B7 /* addRemove.swift */; };
 		2BFB6D7A2C2EE3AC001BC0B7 /* dictAddRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D792C2EE3AC001BC0B7 /* dictAddRemove.swift */; };
+		2BFB6D7C2C2EEC8B001BC0B7 /* algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D7B2C2EEC8B001BC0B7 /* algorithms.swift */; };
+		2BFB6D7E2C2EECBD001BC0B7 /* printing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D7D2C2EECBD001BC0B7 /* printing2.swift */; };
+		2BFB6D802C2EECF7001BC0B7 /* declareVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D7F2C2EECF7001BC0B7 /* declareVar.swift */; };
+		2BFB6D822C2EED7E001BC0B7 /* dataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB6D812C2EED7E001BC0B7 /* dataTypes.swift */; };
 		C9AC9F102C2CFACD00D52E4F /* functionsTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC9F0F2C2CFACD00D52E4F /* functionsTerms.swift */; };
 		C9AC9F122C2CFD5F00D52E4F /* declaringFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC9F112C2CFD5F00D52E4F /* declaringFunctions.swift */; };
 		C9AC9F142C2D016200D52E4F /* ArgumentsParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC9F132C2D016200D52E4F /* ArgumentsParameters.swift */; };
@@ -86,6 +90,10 @@
 		2BFB6D752C2EE357001BC0B7 /* addIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addIndex.swift; sourceTree = "<group>"; };
 		2BFB6D772C2EE364001BC0B7 /* addRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addRemove.swift; sourceTree = "<group>"; };
 		2BFB6D792C2EE3AC001BC0B7 /* dictAddRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictAddRemove.swift; sourceTree = "<group>"; };
+		2BFB6D7B2C2EEC8B001BC0B7 /* algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithms.swift; sourceTree = "<group>"; };
+		2BFB6D7D2C2EECBD001BC0B7 /* printing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printing2.swift; sourceTree = "<group>"; };
+		2BFB6D7F2C2EECF7001BC0B7 /* declareVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = declareVar.swift; sourceTree = "<group>"; };
+		2BFB6D812C2EED7E001BC0B7 /* dataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTypes.swift; sourceTree = "<group>"; };
 		C9AC9F0F2C2CFACD00D52E4F /* functionsTerms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functionsTerms.swift; sourceTree = "<group>"; };
 		C9AC9F112C2CFD5F00D52E4F /* declaringFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = declaringFunctions.swift; sourceTree = "<group>"; };
 		C9AC9F132C2D016200D52E4F /* ArgumentsParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsParameters.swift; sourceTree = "<group>"; };
@@ -168,6 +176,10 @@
 				2B9E6B852C2DB06800558CAA /* loops.swift */,
 				2BBC50F52C2DAFFA00962B07 /* conditionals.swift */,
 				2BD8D8D52C2C6041006F2046 /* BasicsOfPython.swift */,
+				2BFB6D812C2EED7E001BC0B7 /* dataTypes.swift */,
+				2BFB6D7F2C2EECF7001BC0B7 /* declareVar.swift */,
+				2BFB6D7D2C2EECBD001BC0B7 /* printing2.swift */,
+				2BFB6D7B2C2EEC8B001BC0B7 /* algorithms.swift */,
 				2BD8D8A72C2C58DF006F2046 /* Assets.xcassets */,
 				2BD8D8A92C2C58DF006F2046 /* Preview Content */,
 			);
@@ -329,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFB6D7C2C2EEC8B001BC0B7 /* algorithms.swift in Sources */,
 				C9AC9F1A2C2D09B100D52E4F /* functionsQuiz.swift in Sources */,
 				2BD8D8A62C2C58DE006F2046 /* ContentView.swift in Sources */,
 				2BD8D8CE2C2C5A24006F2046 /* python.swift in Sources */,
@@ -343,6 +356,7 @@
 				2BFB6D762C2EE358001BC0B7 /* addIndex.swift in Sources */,
 				2BD8D8D82C2C655B006F2046 /* conditionalsAndLoops.swift in Sources */,
 				2BD8D8D42C2C5BBA006F2046 /* cplusplus.swift in Sources */,
+				2BFB6D822C2EED7E001BC0B7 /* dataTypes.swift in Sources */,
 				2BFB6D722C2EE30A001BC0B7 /* listsDictionaryPractice.swift in Sources */,
 				C9AC9F162C2D070B00D52E4F /* ReturnAndPass.swift in Sources */,
 				2B9E6B862C2DB06800558CAA /* loops.swift in Sources */,
@@ -351,9 +365,11 @@
 				C9AC9F142C2D016200D52E4F /* ArgumentsParameters.swift in Sources */,
 				2BD8D8DC2C2C65BB006F2046 /* array.swift in Sources */,
 				2BFB6D7A2C2EE3AC001BC0B7 /* dictAddRemove.swift in Sources */,
+				2BFB6D7E2C2EECBD001BC0B7 /* printing2.swift in Sources */,
 				C9AC9F122C2CFD5F00D52E4F /* declaringFunctions.swift in Sources */,
 				2BD8D8D62C2C6041006F2046 /* BasicsOfPython.swift in Sources */,
 				2BD8D8DE2C2C6609006F2046 /* pythonsetup.swift in Sources */,
+				2BFB6D802C2EECF7001BC0B7 /* declareVar.swift in Sources */,
 				2BFB6D742C2EE318001BC0B7 /* listsDictionariesQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

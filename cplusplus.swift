@@ -9,7 +9,11 @@ import SwiftUI
 
 struct cplusplus: View {
     var body: some View {
-        Text("This lesson is stil being developed.")
+        ZStack{
+            Color(hue: 0.55, saturation: 0.395, brightness: 0.935)
+                .ignoresSafeArea()
+            Text("This lesson is stil being developed.")
+        }
     }
 }
 

@@ -17,36 +17,42 @@ struct functions: View {
                     Text("Functions")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                    
+                        .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     NavigationLink(destination: functionsTerms()) {
                         Text("Terminology")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     NavigationLink(destination: declaringFunctions()) {
                         Text("Declaring/Calling Functions")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     NavigationLink(destination: ArgumentsParameters ()) {
                         Text("Arguments and Parameters")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     NavigationLink(destination: ReturnAndPass()) {
                         Text("Return and Pass Keywords")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     NavigationLink(destination: functionsPractice()) {
                         Text("Practice (coming soon)")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     NavigationLink(destination: functionsQuiz()) {
                         Text("Quiz (coming soon)")
                             .font(.title)
                             .fontWeight(.bold)
+                            .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                     }
                     Spacer()
                     

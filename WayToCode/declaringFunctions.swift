@@ -16,19 +16,22 @@ struct declaringFunctions: View {
                 
                 Text("Declaring and Calling Functions")
                     .font(.largeTitle)
+                    .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 Text("Syntax for Calling a Function:")
                     .font(.title)
                     .multilineTextAlignment(.trailing)
+                    .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 Image("declareFunction")
                     .resizable()
                     .frame(width: 250.0, height: 50.0)
                 
                 Text("Calling a Function: Type out the function name followed by parentheses.")
                     .font(.title2)
+                    .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 Image("callFunction")
                     .resizable()
                     .frame(width: 250.0, height: 50.0)
-                
+                    .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 
                 Spacer()
             }
