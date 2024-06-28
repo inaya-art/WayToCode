@@ -51,6 +51,14 @@ struct declareVar: View {
                     .scaledToFit()
                 
             }
+            .padding()
+            .background(Color.white)
+            .cornerRadius(10)
+            .shadow(radius: 5)
+            .padding()
+            .foregroundColor(.black)
+            .transition(.slide)
+
         }
     }
 }

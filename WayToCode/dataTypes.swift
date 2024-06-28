@@ -38,6 +38,13 @@ struct dataTypes: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
             }
+            .padding()
+            .background(Color.white)
+            .cornerRadius(10)
+            .shadow(radius: 5)
+            .padding()
+            .foregroundColor(.black)
+            .transition(.slide)
         }
     }
 }

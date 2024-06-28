@@ -23,8 +23,8 @@ struct addRemove: View
                     .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 Image("list3")
                     .resizable()
-                    .padding(.leading, 300.0)
-                    .frame(width: 800, height: 400)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
             }
         }
     }

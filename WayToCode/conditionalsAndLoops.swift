@@ -43,7 +43,7 @@ struct conditionalsAndLoops: View {
                     }
                     Text("Booleans are a data type that represents true or false.")
                         .font(.title2)
-                        .multilineTextAlignment(.center)
+                        .multilineTextAlignment(.leading)
                         .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 }
                 .padding()

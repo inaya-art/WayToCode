@@ -12,8 +12,7 @@ struct addIndex: View
         ZStack{
             Color(hue: 0.55, saturation: 0.395, brightness: 0.935)
                 .ignoresSafeArea()
-            VStack (spacing: 20)
-            {
+            VStack (spacing: 20){
                 Text("Indexing")
                     .font(.title)
                     .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
@@ -22,8 +21,8 @@ struct addIndex: View
                     .foregroundColor(Color(hue: 0.685, saturation: 0.984, brightness: 0.45))
                 Image("list2")
                     .resizable()
-                    .padding(.leading, 250.0)
-                    .frame(width: 800, height: 400)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
             }
         }
     }
